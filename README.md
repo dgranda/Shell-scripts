@@ -2,7 +2,7 @@
 <p>Línea de comandos e intérpretes en GNU/Linux:</p>
 <ul>
 <li><a href="http://es.wikipedia.org/wiki/Bash">Bash en la Wikipedia (Es)</a></li>
-<li><a href="http://es.tldp.org/Tutoriales/NOVATO/novato-a-novato/novato-a-novato-9.html">Bourne shell, tutorial en español</a>. Del documento <a href="http://es.tldp.org/Tutoriales/NOVATO/novato-a-novato/novato-a-novato.html">"Linux: de Novato a Novato"</a></li>
+<li><a href="http://es.tldp.org/Tutoriales/NOVATO/novato-a-novato/novato-a-novato-9.html">Bourne shell, tutorial en español</a>. Del documento <a href="http://es.tldp.org/Tutoriales/NOVATO/novato-a-novato/">"Linux: de Novato a Novato"</a></li>
 <li><a href="http://www.gwolf.org/soft/tut_shell/tut_shell.html">Programación en Shell (bash/Bourne)</a></li>
 <li><a href="http://tldp.org/LDP/abs/html/index.html">Advanced Bash-Scripting Guide</a></li>
 </ul>
