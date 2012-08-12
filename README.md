@@ -9,8 +9,8 @@
 <p>Algunos ejemplos interesantes:</p>
 <ul>
 <li><a href="http://www.davidpashley.com/articles/writing-robust-shell-scripts.html">Writing robust shell scripts</a></li>
-<li><a href="http://www.ibm.com/developerworks/library/l-bashfv.html">Using bash shell scripts for funtion testing</a></li>
-<li><a href="http://pacodebian.iespana.es/bash.html">Página de PacoDebian</a>. Un habitual de ecol.*</li>
+<li><a href="http://www.ibm.com/developerworks/library/l-bashfv.html">Using bash shell scripts for function testing</a></li>
+<li><a href="http://linuxcommand.org/writing_shell_scripts.php">Writing shell scripts</a></li>
 <li><a href="http://iie.fing.edu.uy/~vagonbar/unixbas/expreg.htm">Manejo de expresiones regulares</a>. Englobado dentro de un curso de UNIX</li>
 </ul>
 Inicialmente publicado en http://deif.org/informatica/scripts.html
