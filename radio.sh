@@ -9,19 +9,23 @@ function calcula_ser {
    playlist_ser="http://www.cadenaser.com/comunes/player/mm.php?video=SER_LQ&auth=$clave"
 }
 
-echo
-echo " 1 = Cadena SER"
-echo " 2 = RNE Radio 1"
-echo " 3 = RNE Radio 3"
-echo " 4 = RNE Radio Clásica"
-echo " 5 = RNE Radio 5"
-echo " 6 = RNE Radio Exterior de Espana"
-echo " 7 = Radio Marca"
-echo " 8 = COPE"
-echo " 9 = Kiss FM"
-echo
-echo -n "Selecciona emisora: "
-read choice
+if [ -z "$1" ]; then
+	echo
+	echo " 1 = Cadena SER"
+	echo " 2 = RNE Radio 1"
+	echo " 3 = RNE Radio 3"
+	echo " 4 = RNE Radio Clásica"
+	echo " 5 = RNE Radio 5"
+	echo " 6 = RNE Radio Exterior de Espana"
+	echo " 7 = Radio Marca"
+	echo " 8 = COPE"
+	echo " 9 = Kiss FM"
+	echo
+	echo -n "Selecciona emisora: "
+	read choice
+else
+	choice=$1
+fi
 
 if [ $choice == 1 ] ; then
 # Cadena SER
