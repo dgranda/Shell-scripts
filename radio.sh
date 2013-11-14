@@ -55,7 +55,7 @@ mplayer -nocache -playlist http://radioexterior.rtve.stream.flumotion.com/rtve/r
 
 elif [ $choice == 7 ] ; then
 # Radio Marca
-mplayer -nocache -playlist http://www.radiomarcabarcelona.com/playlist/playlist.m3u
+mplayer -nocache -playlist http://radioweb.radiomarcabarcelona.com:9000/stream.m3u
 
 elif [ $choice == 8 ] ; then
 # COPE
