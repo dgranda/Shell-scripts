@@ -63,7 +63,7 @@ mplayer -nocache -playlist http://www.listenlive.eu/cadenacope.m3u
 
 elif [ $choice == 9 ] ; then
 # Kiss FM
-mplayer -nocache -playlist http://kissfm.en-directo.com/kissfm.asx
+mplayer -nocache -playlist http://kissfm.es.audio1.glb.ipercast.net:8000/kissfm.es/mp3.m3u
 
 elif [ $choice == 0 ] ; then
 exit 0
