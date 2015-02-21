@@ -35,23 +35,24 @@ mplayer -nocache -playlist http://194.169.201.177:8085/liveser.mp3.m3u
 
 elif [ $choice == 2 ] ; then
 # RNE Radio 1
-mplayer -nocache -playlist http://radio1.rtve.stream.flumotion.com/rtve/radio1.mp3.m3u
+mplayer -nocache -playlist http://radiolive.rtve.es/rne.m3u
 
 elif [ $choice == 3 ] ; then
 # RNE Radio 3
-mplayer -nocache -playlist http://radio3.rtve.stream.flumotion.com/rtve/radio3.mp3.m3u
+#mplayer -cache-min 5 http://radio3.rtveradio.cires21.com/radio3/mp3/icecast.audio
+mplayer -nocache -playlist http://radiolive.rtve.es/radio3.m3u
 
 elif [ $choice == 4 ] ; then
 # RNE Clásica
-mplayer -nocache -playlist http://radioclasica.rtve.stream.flumotion.com/rtve/radioclasica.mp3.m3u
+mplayer -nocache -playlist http://radiolive.rtve.es/radioclasica.m3u
 
 elif [ $choice == 5 ] ; then
 # RNE Radio 5
-mplayer -nocache -playlist http://radio5.rtve.stream.flumotion.com/rtve/radio5.mp3.m3u
+mplayer -nocache -playlist http://radiolive.rtve.es/radio5.m3u
 
 elif [ $choice == 6 ] ; then
 # RNE Radio Exterior de Espana
-mplayer -nocache -playlist http://radioexterior.rtve.stream.flumotion.com/rtve/radioexterior.mp3.m3u
+mplayer -nocache -playlist http://radiolive.rtve.es/radioexterior.m3u
 
 elif [ $choice == 7 ] ; then
 # Radio Marca
